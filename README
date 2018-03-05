@@ -1,0 +1,23 @@
+This is the README file for the submission of Assignment 3 from John
+Phillips, B00685175.
+
+The program consists of 2 Python files (assign3.py and assign3_functions.py)
+and can be compiled and run from the command:
+
+    python assign3.py
+
+in the console from the folder it is contained in. Once running, the program
+will prompt the user for the inputs:
+
+    What is the name of the file containing your data?
+    Please enter the minimum support rate (0.00-1.00):
+    Please enter the minimum confidence rate (0.00-1.00):
+
+The association rules for the specified parameters will be saved in the text
+file called Rules.txt.
+
+Please note that the data file must be in the same folder as the program. I
+have included the 3 demo data files in my submission to make it easier for you.
+
+The program will refuse inputs for the minimum support and confidence rates that
+fall outside of the range [0, 1].
